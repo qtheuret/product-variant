@@ -6,8 +6,8 @@
 from odoo import api, models
 
 
-class ProcurementOrder(models.Model):
-    _inherit = 'procurement.order'
+class ProcurementRule(models.Model):
+    _inherit = 'procurement.rule'
 
     # Do not call super as we do not want the native behaviour
     @api.model
